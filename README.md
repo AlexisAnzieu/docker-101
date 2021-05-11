@@ -4,7 +4,7 @@
 
 -   install docker
 -   install docker-compose
--   wear hard hat
+-   wear an hard hat
 
 ## Slides
 

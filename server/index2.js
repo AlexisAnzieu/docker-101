@@ -7,11 +7,11 @@ app.get('/', async (req, res) => {
   let time = '';
   //  http://host.docker.internal:3306
   //  http://swimming-pool:3306
-  await fetch('http://host.docker.internal:3306')
+  await fetch('http://localhost:3306')
     .then(res => res.text())
     .then(body => time += body);
-  var d = new Date()
-  time += "<br>Time: " + d.getHours() + ':' + d.getMinutes()
+  const d = new Date()
+  time += `<br>Time: ${d.getHours()} : ${d.getMinutes()}`
   res.send(time)
 })
 
