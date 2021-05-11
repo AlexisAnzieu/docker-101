@@ -3,7 +3,6 @@
 ## Prerequisite
 
 -   install docker
--   install docker-compose
 -   wear an hard hat
 
 ## Slides
